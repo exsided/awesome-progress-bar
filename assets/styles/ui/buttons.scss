@@ -1,0 +1,20 @@
+.button
+{
+	&--red
+	{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 10px;
+		background-color: $c-accent;
+		padding: 11px;
+		max-height: 36px;
+		cursor: pointer;
+		color: $c-white;
+		border: unset;
+		@include transition();
+
+		&:hover { opacity: .8; }
+		&:active { transform: scale(0.95); }
+	}
+}

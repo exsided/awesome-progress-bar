@@ -1,0 +1,16 @@
+body
+{
+	padding: 20px;
+	font-family: $accent-font;
+	font-size: 16px;
+	line-height: 1.5;
+	color: $c-black;
+}
+
+.container
+{
+	background-color: $c-white;
+	border-radius: 50px;
+	box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.05);
+	padding: 88px 96px;
+}
